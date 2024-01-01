@@ -1,0 +1,40 @@
+@media (max-width: 750px) {
+    .img_size{
+        height: 183px;
+        width: 178px;
+        object-fit: cover;
+    }
+  }
+  
+.container_contact{
+    background-image: url(./image/big_banner.jpg);
+    background-size: 100% 80rem;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.contact-bg{
+    height: 20rem;
+}
+
+
+.img-container-support{
+    background-image: url(./image/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45rem;
+    width: auto;
+}
+
+.container-support-item{
+    background-color: aqua;
+}
+
+.form-contact{
+    background-color: wheat;
+}
+
+textarea {
+    resize: none;
+}
