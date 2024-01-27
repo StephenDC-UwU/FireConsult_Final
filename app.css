@@ -5,18 +5,47 @@
         object-fit: cover;
     }
   }
+
+.caption-banner{
+    width: 35rem;
+    height: 14rem;
+    background-color: #FFE900;  
+    border: solid 5px black;
+}
+
+.text-black{
+        color: black;
+    }
+
+.color-gris{
+    background-color: #667173;
+}    
+
+
+
+
   
 .container_contact{
     background-image: url(./image/big_banner.jpg);
     background-size: 100% 80rem;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(90%);
 
 }
 
 .contact-bg{
     height: 20rem;
+   
+}
+
+.contact-bg h5  {
+    padding: 2rem;
+    background-color: #8C0611;
+}
+
+.contact-bg p  {
+    padding: 2rem;
+    background-color: #555259;
 }
 
 
@@ -28,12 +57,21 @@
     width: auto;
 }
 
+@media (max-width: 1050px) {
+    .img-container-support{
+        background-image: none;
+        background-position: center;
+        height: 0;
+        width: 0;
+    }
+  }
+
 .container-support-item{
-    background-color: aqua;
+    background-color: #667173;
 }
 
 .form-contact{
-    background-color: wheat;
+    background-color: #F2B705;
 }
 
 textarea {
