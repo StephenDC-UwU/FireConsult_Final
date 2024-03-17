@@ -4,7 +4,30 @@
         width: 178px;
         object-fit: cover;
     }
-  }
+  
+}
+
+
+
+.effectLogo{
+    transition: 1s;
+    transition-property: background-color, color;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.effectLogo:hover{
+    background-color: #8C0611;
+    color: white;
+    padding: 0.2rem, 3rem;
+    border-radius: 10px;
+    
+}
+
+
+
 
 .caption-banner{
     width: 35rem;
